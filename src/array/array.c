@@ -70,7 +70,7 @@ void array_fusion_sort_i(int* array_to_check, int array_element_count) {
     merge_array_left_and_array_right_i(array_to_check, array_left, mid, array_right, (array_element_count - mid));
 }
 
-void merge_array_left_and_array_right_i(int arr[], int left[], int leftSize, int right[], int rightSize) {
+void merge_array_left_and_array_right_i(int *arr, int *left, int leftSize, int *right, int rightSize) {
     int i = 0, j = 0, k = 0;
 
     while (i < leftSize && j < rightSize) {

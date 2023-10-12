@@ -4,6 +4,7 @@ void array_init_with_random_value_i(int** array_to_malloc, int array_element_cou
 
 void array_bubble_sort_i(int* array_to_check, int array_element_count);
 void array_fusion_sort_i(int* array_to_check, int array_element_count);
+void merge_array_left_and_array_right_i(int *arr, int *left, int leftSize, int *right, int rightSize);
 
 
 //return 0!= if sorted
