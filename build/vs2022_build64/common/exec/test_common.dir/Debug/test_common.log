@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/common/exec/CMakeLists.txt
+  test_common.c
+  test_common.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\common\exec\Debug\test_common.exe

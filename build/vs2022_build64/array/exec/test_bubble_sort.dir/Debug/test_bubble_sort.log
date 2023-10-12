@@ -1,1 +1,3 @@
-﻿  test_bubble_sort.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\Debug\test_bubble_sort.exe
+﻿  test_bubble_sort.c
+C:\Users\cyril\Desktop\archi_cmake\src\array/array.c(12,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  test_bubble_sort.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\Debug\test_bubble_sort.exe
