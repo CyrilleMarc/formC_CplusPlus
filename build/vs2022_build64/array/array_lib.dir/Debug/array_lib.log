@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/array/CMakeLists.txt
+  array.c
+C:\Users\cyril\Desktop\archi_cmake\src\array\array.c(12,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  array_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\Debug\array_lib.lib
