@@ -24,8 +24,8 @@ int main()
     result = multiply(&num1, &num2);
     if (multiply)
     {
-        printf("Le produit de %d x %d est : %d\n", num1, num2, result);
-        logger_log(LOG_INFO, __FUNCSIG__, "multiplication done successfully");
+        printf("Resultat : %d\n", result);
+        logger_log(LOG_INFO, __FUNCSIG__, "function multiply successfully executed");
     }
     return 0;
 }

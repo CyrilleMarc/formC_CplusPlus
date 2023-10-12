@@ -15,3 +15,15 @@ set_target_properties(test_fusion_sort PROPERTIES FOLDER "array")
 add_executable(test_quick_sort test_quick_sort.c)
 target_link_libraries(test_quick_sort array_lib common_lib)
 set_target_properties(test_quick_sort PROPERTIES FOLDER "array")
+
+add_executable(ex12_array_2D ex12_array_2D.c)
+target_link_libraries(ex12_array_2D common_lib)
+set_target_properties(ex12_array_2D PROPERTIES FOLDER "array")
+
+add_executable(ex13_array_sort ex13_array_sort.c)
+target_link_libraries(ex13_array_sort common_lib)
+set_target_properties(ex13_array_sort PROPERTIES FOLDER "array")
+
+add_executable(ex14_array_sort_with_pointers ex14_array_sort_with_pointers.c)
+target_link_libraries(ex14_array_sort_with_pointers common_lib)
+set_target_properties(ex14_array_sort_with_pointers PROPERTIES FOLDER "array")

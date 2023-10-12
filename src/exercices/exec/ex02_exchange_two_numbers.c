@@ -25,6 +25,7 @@ int main()
         printf("Après inversion\n");
         printf("num1 = %d\n", num1);
         printf("num2 = %d\n", num2);
+        logger_log(LOG_INFO, __FUNCSIG__, "function exchange successfully executed");
     }
     return 0;
 }
