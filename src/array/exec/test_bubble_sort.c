@@ -1,6 +1,9 @@
+#include <stdlib.h>
+
 #include <common/common.h>
 #include <array/array.h>
-#include <stdlib.h>
+#include <array/array.c>
+
 
 int main(int argc, char* argv[])
 {

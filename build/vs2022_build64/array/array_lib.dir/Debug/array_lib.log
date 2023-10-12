@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/array/CMakeLists.txt
-  array.c
+﻿  array.c
 C:\Users\cyril\Desktop\archi_cmake\src\array\array.c(12,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
-  array_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\Debug\array_lib.lib
+C:\Users\cyril\Desktop\archi_cmake\src\array\array.c(70,5): warning C4013: 'merge_array_left_and_array_right_i' non défini(e) ; extern retournant int pris par défaut
+C:\Users\cyril\Desktop\archi_cmake\src\array\array.c(73,6): error C2371: 'merge_array_left_and_array_right_i' : redéfinition ; types de base différents
