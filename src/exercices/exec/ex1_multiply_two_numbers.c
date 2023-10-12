@@ -18,7 +18,7 @@ int main()
     printf("Saisissez un entier:\n");
     scanf("%d", &num1);
     printf("Saisissez un entier:\n");
-    scanf("%d",& num2);
+    scanf("%d", &num2);
 
 
     result = multiply(&num1, &num2);
