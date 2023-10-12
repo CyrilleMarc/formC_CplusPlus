@@ -2,7 +2,7 @@
 
 #include <common/common.h>
 #include <array/array.h>
-#include <array/array.c>
+
 
 
 int main(int argc, char* argv[])

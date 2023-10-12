@@ -2,11 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+#include <Common/Common.h>
+#include <array/array.h>
+
 void array_init_with_random_value_i(int** array_to_malloc, int array_element_count, int max_value)
 {
     *array_to_malloc = (int*)malloc(array_element_count * sizeof(int));
     if (*array_to_malloc == NULL) {
-        printf("Failed memory allocation\n");
+        logger_log(LOG_DEBUG, __FUNCSIG__, "Failed memory allocation\n");
         return;
     }
     srand(time(NULL));
@@ -22,11 +25,11 @@ int array_check_sorted_i(int* array_to_check, int array_element_count)
 {
     for (int j = 0; j < array_element_count - 1; ++j) {
         if (array_to_check[j] > array_to_check[j + 1]) {
-            printf("Array is not sorted\n");
+            logger_log(LOG_DEBUG, __FUNCSIG__, "array is sorted\n");
             return 0;
         }
     }
-    printf("Array is sorted\n");
+    logger_log(LOG_DEBUG, __FUNCSIG__, "Array is not sorted\n");
     return 1;
 }
 
@@ -54,7 +57,15 @@ void array_fusion_sort_i(int* array_to_check, int array_element_count) {
     int i, j = 0;
     int mid = array_element_count / 2;
     int* array_left = malloc(mid * sizeof(int));
+    if (NULL == array_left) {
+        logger_log(LOG_FATAL, __FUNCSIG__, "Malloc array_left failed");
+        return;
+    }
     int* array_right = malloc((array_element_count - mid) * sizeof(int));
+    if (NULL == array_right) {
+        logger_log(LOG_FATAL, __FUNCSIG__, "Malloc array_right failed");
+        return;
+    }
 
     for (i = 0; i < mid; ++i) {
         array_left[i] = array_to_check[i];
