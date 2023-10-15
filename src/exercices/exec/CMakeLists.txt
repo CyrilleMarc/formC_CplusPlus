@@ -64,11 +64,4 @@ add_executable(ex19_malloc_array_2D ex19_malloc_array_2D.c)
 target_link_libraries(ex19_malloc_array_2D common_lib)
 set_target_properties(ex19_malloc_array_2D PROPERTIES FOLDER "exercices")
 
-add_executable(ex20_sort_array ex20_sort_array.c)
-target_link_libraries(ex20_sort_array common_lib)
-set_target_properties(ex20_sort_array PROPERTIES FOLDER "exercices")
-
-add_executable(ex21_split_array ex21_split_array.c)
-target_link_libraries(ex21_split_array common_lib)
-set_target_properties(ex21_split_array PROPERTIES FOLDER "exercices")
 

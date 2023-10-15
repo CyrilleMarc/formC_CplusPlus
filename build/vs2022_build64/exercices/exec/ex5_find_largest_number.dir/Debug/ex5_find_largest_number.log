@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/exercices/exec/CMakeLists.txt
+  ex5_find_largest_number.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex5_find_largest_number.c(18,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex5_find_largest_number.c(20,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex5_find_largest_number.c(22,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex5_find_largest_number.c(53): warning C4715: 'largestNum' : les chemins de contrôle ne retournent pas tous une valeur
+  ex5_find_largest_number.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex5_find_largest_number.exe

@@ -24,13 +24,13 @@ void array_init_with_random_value_i(int** array_to_malloc, int array_element_cou
 int array_check_sorted_i(int* array_to_check, int array_element_count)
 {
     for (int j = 0; j < array_element_count - 1; ++j) {
-        if (array_to_check[j] > array_to_check[j + 1]) {
+        if (array_to_check[j] < array_to_check[j + 1]) {
             logger_log(LOG_DEBUG, __FUNCSIG__, "array is sorted\n");
-            return 0;
+            return 1;
         }
     }
     logger_log(LOG_DEBUG, __FUNCSIG__, "Array is not sorted\n");
-    return 1;
+    return 0;
 }
 
 void array_bubble_sort_i(int* array_to_check, int array_element_count)
@@ -102,3 +102,21 @@ void merge_array_left_and_array_right_i(int *arr, int *left, int leftSize, int *
     }
 }
 
+void array_quick_sort_i(int* array_to_check, int array_element_count) {
+    int x, j = 0;
+
+    for (int i = 0; i < array_element_count; ++i)
+    {
+
+        x = array_to_check[i];
+        j = i;
+
+        while (j > 0 && array_to_check[j - 1] > x)
+        {
+            array_to_check[j] = array_to_check[j - 1];
+            j = j - 1;
+        }
+        array_to_check[j] = x;
+    }
+
+}

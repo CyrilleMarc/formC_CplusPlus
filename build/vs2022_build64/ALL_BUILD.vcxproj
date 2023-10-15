@@ -181,6 +181,94 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{C1CB27D6-4EAD-3291-AFB6-AC71340C8C46}</Project>
       <Name>common_lib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex01_multiply_two_numbers.vcxproj">
+      <Project>{41652532-DB96-3F8C-A26B-C9F98BDEBCEE}</Project>
+      <Name>ex01_multiply_two_numbers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex02_exchange_two_numbers.vcxproj">
+      <Project>{8D598F8D-0375-33F4-B856-60C82993643C}</Project>
+      <Name>ex02_exchange_two_numbers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex03_convert_letter_hexadecimal.vcxproj">
+      <Project>{67C5BDC9-28F7-3510-90AE-4B027B4584AE}</Project>
+      <Name>ex03_convert_letter_hexadecimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex04_find_even_number.vcxproj">
+      <Project>{DA7AF0ED-F138-3CEF-8B7B-8F0C8B40ABC4}</Project>
+      <Name>ex04_find_even_number</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex05_find_largest_number.vcxproj">
+      <Project>{08F9334F-E71A-3D7A-88D7-ACDA9A2BD208}</Project>
+      <Name>ex05_find_largest_number</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex06_find_bigger_number.vcxproj">
+      <Project>{DC67142A-9A27-31B8-9D36-3C68AA082E0A}</Project>
+      <Name>ex06_find_bigger_number</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex07_loop_while.vcxproj">
+      <Project>{555743ED-2EB5-35D3-8156-A7627586F1AE}</Project>
+      <Name>ex07_loop_while</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex08_loop_while.vcxproj">
+      <Project>{5BF1F313-1920-3314-BC80-A86E35A90E19}</Project>
+      <Name>ex08_loop_while</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex09_loop_for.vcxproj">
+      <Project>{5988B7E0-8E58-3C8E-8F16-69860427250A}</Project>
+      <Name>ex09_loop_for</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex10_pointers.vcxproj">
+      <Project>{D24F9142-4047-3E4B-B158-AFD89CE7C101}</Project>
+      <Name>ex10_pointers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex11_loop_for.vcxproj">
+      <Project>{E2D62EB0-B1F2-3242-9499-2FDA5A85DB90}</Project>
+      <Name>ex11_loop_for</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex12_array_2D.vcxproj">
+      <Project>{0AD59A79-04E8-3C10-83E8-3F2749B6E256}</Project>
+      <Name>ex12_array_2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex13_array_sort.vcxproj">
+      <Project>{82543AE6-7F1A-35B9-9E22-FB335CE16039}</Project>
+      <Name>ex13_array_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex14_array_sort_with_pointers.vcxproj">
+      <Project>{6EF52BBB-6FB2-34A5-A08A-A616E31502C8}</Project>
+      <Name>ex14_array_sort_with_pointers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex15_malloc.vcxproj">
+      <Project>{5B8785FC-9356-388E-8059-77F75E67D5B5}</Project>
+      <Name>ex15_malloc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex16_mirror_two_words.vcxproj">
+      <Project>{BC6A2297-F174-312C-92D7-D2B2BFD8C1BA}</Project>
+      <Name>ex16_mirror_two_words</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex17_quickSort_array.vcxproj">
+      <Project>{05A3D441-77DF-3612-8152-375AB76FD319}</Project>
+      <Name>ex17_quickSort_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex18_fusion_sort.vcxproj">
+      <Project>{F925E319-433B-340D-9936-127E9E910D28}</Project>
+      <Name>ex18_fusion_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex19_malloc_array_2D.vcxproj">
+      <Project>{6B972614-D450-3FB7-B64D-DCB00154CD58}</Project>
+      <Name>ex19_malloc_array_2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex20_sort_array.vcxproj">
+      <Project>{4ECCD570-1D83-3C04-8913-F1A16BAD64C6}</Project>
+      <Name>ex20_sort_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex21_split_array.vcxproj">
+      <Project>{47124F68-2365-3135-93A6-D5738244A40C}</Project>
+      <Name>ex21_split_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex22_sort_array_fusion_by_index.vcxproj">
+      <Project>{5C9F6A59-001F-3E58-B96E-D491AC513F5E}</Project>
+      <Name>ex22_sort_array_fusion_by_index</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\list_lib.vcxproj">
       <Project>{18A166C8-9588-33AF-80CE-5A35EC9843CA}</Project>
       <Name>list_lib</Name>

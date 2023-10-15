@@ -4,7 +4,7 @@ int iNb_days[13] = {0};
 
 int displayMonth()
 {
-    for (int i = 1; i < 13; ++i)
+    for (int i = 1; i <= 12; ++i)
     {
         if (i == 2)
         {
@@ -30,7 +30,7 @@ int main()
     {
         for (int i = 1; i < 13; ++i)
         {
-            printf("nombre de jours dans le mois %d\n", iNb_days[i]);
+            printf("nombre de jours dans le mois %d : %d\n", i, iNb_days[i]);
         }
     }
     return 0;

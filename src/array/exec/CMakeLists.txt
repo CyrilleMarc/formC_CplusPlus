@@ -27,3 +27,16 @@ set_target_properties(ex13_array_sort PROPERTIES FOLDER "array")
 add_executable(ex14_array_sort_with_pointers ex14_array_sort_with_pointers.c)
 target_link_libraries(ex14_array_sort_with_pointers common_lib)
 set_target_properties(ex14_array_sort_with_pointers PROPERTIES FOLDER "array")
+
+add_executable(ex20_sort_array ex20_sort_array.c)
+target_link_libraries(ex20_sort_array common_lib)
+set_target_properties(ex20_sort_array PROPERTIES FOLDER "array")
+
+add_executable(ex21_split_array ex21_split_array.c)
+target_link_libraries(ex21_split_array common_lib)
+set_target_properties(ex21_split_array PROPERTIES FOLDER "array")
+
+add_executable(ex22_sort_array_fusion_by_index ex22_sort_array_fusion_by_index.c)
+target_link_libraries(ex22_sort_array_fusion_by_index common_lib)
+set_target_properties(ex22_sort_array_fusion_by_index PROPERTIES FOLDER "array")
+
