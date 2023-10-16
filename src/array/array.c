@@ -102,7 +102,7 @@ void merge_array_left_and_array_right_i(int *arr, int *left, int leftSize, int *
     }
 }
 
-void array_quick_sort_i(int* array_to_check, int array_element_count) {
+void array_insertion_sort_i(int* array_to_check, int array_element_count) {
     int x, j = 0;
 
     for (int i = 0; i < array_element_count; ++i)
@@ -118,5 +118,33 @@ void array_quick_sort_i(int* array_to_check, int array_element_count) {
         }
         array_to_check[j] = x;
     }
+
+}
+
+void array_quick_sort_i(int* array_to_check, int array_element_count)
+{
+    if (array_element_count <= 1)
+    {
+        return;
+    }
+    int pivot = array_to_check[array_element_count - 1];
+    int i = -1;
+
+    for (int j = 0; j < array_element_count; ++j)
+    {
+        if (array_to_check[j] < pivot)
+        {
+            i++;
+            int temp = array_to_check[i];
+            array_to_check[i] = array_to_check[j];
+            array_to_check[j] = temp;
+        }
+    }
+    int temp = array_to_check[i + 1];
+    array_to_check[i + 1] = array_to_check[array_element_count - 1];
+    array_to_check[array_element_count - 1] = temp;
+
+    array_quick_sort_i(array_to_check, i + 1);
+    array_quick_sort_i(array_to_check + i + 2, array_element_count - i - 2);
 
 }
