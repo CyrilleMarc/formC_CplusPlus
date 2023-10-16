@@ -8,7 +8,7 @@
 void array_init_with_random_value_i(int** array_to_malloc, int array_element_count, int max_value)
 {
     *array_to_malloc = (int*)malloc(array_element_count * sizeof(int));
-    if (*array_to_malloc == NULL) {
+    if (NULL == *array_to_malloc ) {
         logger_log(LOG_DEBUG, __FUNCSIG__, "Failed memory allocation\n");
         return;
     }
