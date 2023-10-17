@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "single_list.h" 
 #include "common/common.h"
 
@@ -10,7 +11,7 @@ Liste* single_list_init() {
     if (NULL == list || NULL == element) {
         logger_log(LOG_DEBUG, __FUNCSIG__, "Failed memory allocation\n");
     }
-    element->number = 0;
+    element->number = 10;
     element->next = NULL;
     list->first = element;
 
