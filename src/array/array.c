@@ -130,7 +130,7 @@ void array_quick_sort_i(int* array_to_check, int array_element_count)
     int pivot = array_to_check[array_element_count - 1];
     int i = -1;
 
-    for (int j = 0; j < array_element_count; ++j)
+    for (int j = 0; j < array_element_count - 1; ++j)
     {
         if (array_to_check[j] < pivot)
         {

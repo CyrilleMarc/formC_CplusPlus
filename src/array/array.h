@@ -9,7 +9,6 @@ void array_insertion_sort_i(int* array_to_check, int array_element_count);
 void array_quick_sort_i(int* array_to_check, int array_element_count);
 
 
-
 //return 0!= if sorted
 int array_check_sorted_i(int* array_to_check, int array_element_count);
 
