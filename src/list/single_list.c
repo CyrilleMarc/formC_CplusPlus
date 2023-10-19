@@ -49,10 +49,9 @@ void single_list_display(Liste* list) {
         return;
     }
     Element* current = list->first;
-    printf("List elements: ");
     while (NULL != current) {
         printf("%d->", current->number);
         current = current->next;
     }
-    printf("NULL\n");
+    
 }

@@ -10,6 +10,4 @@ int main(int argc, char* argv[])
 	single_list_insert(newList, 4);
 	single_list_display(newList);  
 	single_list_delete(newList); 
-
-	return 0;
 }
