@@ -15,14 +15,25 @@ int main(int argc, char* argv[])
 	  double_list_insert_element(new_list, i);
   }
 	  double_list_display(new_list);
+	  /*
 	  Element* current = new_list->first;
 	  while (NULL != current) {
 		  printf("%d->", current->number);
 		  current = current->next;
-	  }
-	 // double_list_delete_all(new_list);
-	  //double_list_delete_first(Liste *list);
-	  //double_list_delete_by_number(Liste *list int number);
+	  }*/
+	  double_list_delete_first(new_list);
+	  printf("\n");
+	  double_list_display(new_list);
+	  printf("\n");
+	  double_list_delete_by_number(new_list, 4);
+	  printf("\n");
+	  double_list_display(new_list);
+	 printf("\n");
+	 double_list_delete_all(new_list);
+	 printf("\n");
+	 double_list_display(new_list);
+	 
+	  
 
 	  return 0;
   

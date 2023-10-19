@@ -40,14 +40,12 @@ void double_list_insert_element(Liste* list, int number) {
 }
 
 void double_list_display(Liste* list) {
-
+	logger_log(LOG_INFO, __FUNCSIG__, "\nLa liste:\n");
 	Element* current = list->first;
 	while (NULL != current) {
-		//printf("%d->", current->number);
+		printf("%d->", current->number);
 		current = current->next;
 	}
-	printf("\n");
-
 }
 
 void double_list_delete_first(Liste *list) {
@@ -62,35 +60,33 @@ void double_list_delete_first(Liste *list) {
 	
 }
 
-void double_list_delete_all(Liste* list) {
-	Element *current = list->first;
-	while (NULL != current) {
-		Element* temp = current;
-		current = current->next;
-		free(current);
-	}
-	list->first = NULL;
-}
 
-void double_list_delete_by_number(Liste *list, int number){
-
+void double_list_delete_by_number(Liste* list, int number) {
 	Element* current = list->first;
-		while(NULL != current){
-		if (current->number = number) {
-			if (NULL != current->back) {
+	while (current != NULL) {
+		if (current->number == number) {
+			if (current->back != NULL) {
 				current->back->next = current->next;
 			}
-			if (NULL != current->next) {
+			if (current->next != NULL) {
 				current->next->back = current->back;
 			}
-			if (list->first = current) {
+			if (list->first == current) {
 				list->first = current->next;
 			}
 			free(current);
 			break;
 		}
 		current = current->next;
-
 	}
+}
 
+void double_list_delete_all(Liste* list) {
+	Element* current = list->first;
+	while (NULL != current) {
+		Element* temp = current;
+		current = current->next;
+		free(temp);
+	}
+	list->first = NULL;
 }
