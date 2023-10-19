@@ -1,1 +1,3 @@
-﻿  test_double_list.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\Debug\test_double_list.exe
+﻿  test_double_list.c
+C:\Users\cyril\Desktop\archi_cmake\src\list\exec\test_double_list.c(20,5): warning C4013: 'printf' undefined; assuming extern returning int
+  test_double_list.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\Debug\test_double_list.exe

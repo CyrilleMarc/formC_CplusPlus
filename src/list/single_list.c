@@ -11,7 +11,7 @@ Liste* single_list_init() {
     if (NULL == list || NULL == element) {
         logger_log(LOG_DEBUG, __FUNCSIG__, "Failed memory allocation\n");
     }
-    element->number = 10;
+    element->number = 0;
     element->next = NULL;
     list->first = element;
 
@@ -19,7 +19,7 @@ Liste* single_list_init() {
 }
 
 void single_list_insert(Liste* list, int newNumber) {
-    Element* new = malloc(sizeof(*new));
+    Element* new = malloc(sizeof(Element));
     if (NULL == list || NULL == new) {
         logger_log(LOG_DEBUG, __FUNCSIG__, "Failed memory allocation\n");
     }
@@ -28,20 +28,6 @@ void single_list_insert(Liste* list, int newNumber) {
     list->first = new;
 }
 
-void single_list_delete(Liste* list) {
-    if (NULL == list) {
-        logger_log(LOG_INFO, __FUNCSIG__, "List do not found\n");
-        return;
-    }
-    if (NULL == list->first) {
-        logger_log(LOG_INFO, __FUNCSIG__, "List is empty\n");
-        return;
-    }
-
-    Element* toDelete = list->first;
-    list->first = list->first->next;
-    free(toDelete);
-}
 
 void single_list_display(Liste* list) {
     if (NULL == list) {
@@ -52,6 +38,20 @@ void single_list_display(Liste* list) {
     while (NULL != current) {
         printf("%d->", current->number);
         current = current->next;
+    }  
+}
+
+void single_list_delete_first(Liste* list) {
+    if (NULL == list) {
+        logger_log(LOG_INFO, __FUNCSIG__, "List do not found\n");
+        return;
     }
-    
+    if (NULL == list->first) {
+        logger_log(LOG_INFO, __FUNCSIG__, "List is empty\n");
+        return;
+    }
+        Element* temp = list->first;
+        list->first = list->first->next;
+        free(temp);
+   
 }

@@ -1,3 +1,4 @@
+#include <stdlib.h>
 
 #include <common/common.h>
 #include <list/double_list.h>
@@ -13,8 +14,15 @@ int main(int argc, char* argv[])
   for(int i = 0; i < 20; ++i){
 	  double_list_insert_element(new_list, i);
   }
-
 	  double_list_display(new_list);
+	  Element* current = new_list->first;
+	  while (NULL != current) {
+		  printf("%d->", current->number);
+		  current = current->next;
+	  }
+	 // double_list_delete_all(new_list);
+	  //double_list_delete_first(Liste *list);
+	  //double_list_delete_by_number(Liste *list int number);
 
 	  return 0;
   

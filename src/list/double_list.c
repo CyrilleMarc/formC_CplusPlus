@@ -43,9 +43,54 @@ void double_list_display(Liste* list) {
 
 	Element* current = list->first;
 	while (NULL != current) {
-		printf("%d->", current->number);
+		//printf("%d->", current->number);
 		current = current->next;
 	}
 	printf("\n");
+
+}
+
+void double_list_delete_first(Liste *list) {
+	if(NULL != list->first){
+		Element* firstElement = list->first;
+		list->first = firstElement->next;
+		if (NULL != list->first) {
+			(list->first->back = NULL);
+		}
+		free(firstElement);
+	}
+	
+}
+
+void double_list_delete_all(Liste* list) {
+	Element *current = list->first;
+	while (NULL != current) {
+		Element* temp = current;
+		current = current->next;
+		free(current);
+	}
+	list->first = NULL;
+}
+
+void double_list_delete_by_number(Liste *list, int number){
+
+	Element* current = list->first;
+		while(NULL != current){
+		if (current->number = number) {
+			if (NULL != current->back) {
+				current->back->next = current->next;
+			}
+			if (NULL != current->next) {
+				current->next->back = current->back;
+			}
+			if (list->first = current) {
+				list->first = current->next;
+			}
+			free(current);
+			break;
+		}
+		current = current->next;
+
+	}
 
 }

@@ -11,5 +11,5 @@ typedef struct Liste {
 
 Liste* single_list_init();
 void single_list_insert(Liste* list, int newNumber);
-void single_list_delete(Liste* list);
 void single_list_display(Liste* list);
+void single_list_delete_first(Liste* list);
