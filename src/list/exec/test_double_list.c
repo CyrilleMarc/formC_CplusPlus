@@ -28,10 +28,10 @@ int main(int argc, char* argv[])
 	  double_list_delete_by_number(new_list, 4);
 	  printf("\n");
 	  double_list_display(new_list);
-	 printf("\n");
-	 double_list_delete_all(new_list);
-	 printf("\n");
-	 double_list_display(new_list);
+	  printf("\n");
+	  double_list_delete_all(new_list);
+	  printf("\n");
+	  double_list_display(new_list);
 	 
 	  
 

@@ -301,6 +301,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CE25455F-69D5-3F8D-8476-4C9DD9B9CDE1}</Project>
       <Name>test_single_list</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\stack\exec\test_stack.vcxproj">
+      <Project>{F71F9D6B-A9DE-398F-B1E2-1FF27F28EDE3}</Project>
+      <Name>test_stack</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -38,6 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/cmake_install.cmake")
   include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/cmake_install.cmake")
   include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/cmake_install.cmake")
+  include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/cmake_install.cmake")
 
 endif()
 

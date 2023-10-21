@@ -32,3 +32,4 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFile
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex17_quickSort_array.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex18_fusion_sort.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex19_malloc_array_2D.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/exec/CMakeFiles/test_stack.dir
