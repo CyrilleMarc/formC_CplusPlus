@@ -32,10 +32,10 @@ int pop_element_from_stack(Stack *stack, int *value) {
 		*value = stack->data[stack->top];
 		stack->top--;
 		logger_log(LOG_INFO, __FUNCSIG__, "value successfully out");
-		return 1;
+		return *value;
 	}
 	else {
 		logger_log(LOG_INFO, __FUNCSIG__, "Failure, stack is already empty");
-		return -1;
+		return 0;
 	}
 }

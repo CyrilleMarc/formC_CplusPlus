@@ -10,6 +10,7 @@ int main(int argc, char* argv[])
 	logger_log(LOG_DEBUG, __FUNCSIG__, argv[0]);
 
 		Stack stack;
+		int value = 0;
 		stack_init(&stack,10);
 
 		push_element_in_stack(&stack, 1);
@@ -17,11 +18,10 @@ int main(int argc, char* argv[])
 		push_element_in_stack(&stack, 5);
 		push_element_in_stack(&stack, 7);
 
-		int value = 0;
+		
 		pop_element_from_stack(&stack, &value);
-		printf("la valeur retournée est : % d", value);
+		printf("la valeur retournée est : %d", value);
 		printf("\n");
 		pop_element_from_stack(&stack, &value);
-		printf("la valeur retournée est : % d", value);
-
+		printf("la valeur retournée est : %d", value);
 }

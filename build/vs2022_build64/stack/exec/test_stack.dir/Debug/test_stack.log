@@ -1,4 +1,2 @@
 ﻿  test_stack.c
-C:\Users\cyril\Desktop\archi_cmake\src\stack\exec\test_stack.c(21,34): warning C4020: 'pop_element_from_stack': too many actual parameters
-C:\Users\cyril\Desktop\archi_cmake\src\stack\exec\test_stack.c(24,34): warning C4020: 'pop_element_from_stack': too many actual parameters
   test_stack.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\stack\exec\Debug\test_stack.exe

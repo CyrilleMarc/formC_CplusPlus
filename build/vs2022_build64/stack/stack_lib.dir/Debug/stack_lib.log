@@ -1,3 +1,2 @@
 ﻿  stack.c
-C:\Users\cyril\Desktop\archi_cmake\src\stack\stack.c(30,54): warning C4029: declared formal parameter list different from definition
   stack_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\stack\Debug\stack_lib.lib
