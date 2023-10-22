@@ -3,6 +3,7 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/CMakeFiles/ZERO_CHECK.di
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/common/CMakeFiles/common_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/CMakeFiles/array_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/CMakeFiles/list_lib.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/CMakeFiles/stack_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/common/exec/CMakeFiles/test_common.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_bubble_sort.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_insertion_sort.dir

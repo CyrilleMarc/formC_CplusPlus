@@ -1,12 +1,27 @@
+#include <stdio.h>
 #include <stdlib.h>
 
 #include <common/common.h>
-#include <list/single_list.h>
+#include <stack/stack.h>
 
 int main(int argc, char* argv[])
 {
 	logger_set_current_level(LOG_DEBUG);
 	logger_log(LOG_DEBUG, __FUNCSIG__, argv[0]);
 
+		Stack stack;
+		stack_init(&stack,10);
+
+		push_element_in_stack(&stack, 1);
+		push_element_in_stack(&stack, 3);
+		push_element_in_stack(&stack, 5);
+		push_element_in_stack(&stack, 7);
+
+		int value = 0;
+		pop_element_from_stack(&stack, &value);
+		printf("la valeur retournée est : % d", value);
+		printf("\n");
+		pop_element_from_stack(&stack, &value);
+		printf("la valeur retournée est : % d", value);
 
 }

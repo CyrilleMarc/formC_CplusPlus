@@ -5,8 +5,8 @@
 #include "common/common.h"
 
 Liste* single_list_init() {
-    Liste* list = malloc(sizeof(*list));
-    Element* element = malloc(sizeof(*element));
+    Liste* list = malloc(sizeof(Liste));
+    Element* element = malloc(sizeof(Element));
 
     if (NULL == list || NULL == element) {
         logger_log(LOG_DEBUG, __FUNCSIG__, "Failed memory allocation\n");

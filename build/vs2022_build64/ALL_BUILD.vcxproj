@@ -273,6 +273,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{18A166C8-9588-33AF-80CE-5A35EC9843CA}</Project>
       <Name>list_lib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\stack\stack_lib.vcxproj">
+      <Project>{C60664E8-32E4-3081-BB1A-7A0D0DF64BBD}</Project>
+      <Name>stack_lib</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_bubble_sort.vcxproj">
       <Project>{0025BACC-343A-3EEB-8921-387B5009E0C5}</Project>
       <Name>test_bubble_sort</Name>
