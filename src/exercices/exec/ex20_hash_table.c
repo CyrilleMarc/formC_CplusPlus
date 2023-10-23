@@ -3,12 +3,12 @@
 
 #include <common/common.h>
 
-int hash_table_c(char* array_to_hash) {
+int hash_table_c(char* string_to_hash) {
     int i = 0;
     int hashed_number = 0;
 
-    for (i = 0; array_to_hash[i] != '\0'; ++i) {
-        hashed_number += array_to_hash[i]; 
+    for (i = 0; string_to_hash[i] != '\0'; ++i) {
+        hashed_number += string_to_hash[i]; 
     }
 
     hashed_number %= 100;
