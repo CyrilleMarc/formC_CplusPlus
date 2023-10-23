@@ -257,6 +257,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{6B972614-D450-3FB7-B64D-DCB00154CD58}</Project>
       <Name>ex19_malloc_array_2D</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex20_hash_table.vcxproj">
+      <Project>{0B7873B4-18B8-3E24-B889-62D0BA9F0DB8}</Project>
+      <Name>ex20_hash_table</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex20_sort_array.vcxproj">
       <Project>{4ECCD570-1D83-3C04-8913-F1A16BAD64C6}</Project>
       <Name>ex20_sort_array</Name>
