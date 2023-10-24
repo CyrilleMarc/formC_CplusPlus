@@ -65,8 +65,5 @@ target_link_libraries(ex19_malloc_array_2D common_lib)
 set_target_properties(ex19_malloc_array_2D PROPERTIES FOLDER "exercices")
 
 
-add_executable(ex20_hash_table ex20_hash_table.c)
-target_link_libraries(ex20_hash_table common_lib)
-set_target_properties(ex20_hash_table PROPERTIES FOLDER "exercices")
 
 

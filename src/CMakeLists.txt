@@ -10,6 +10,7 @@ subdirs(array)
 subdirs(list)
 subdirs(exercices)
 subdirs(stack)
+subdirs(hash_table)
 
 
 

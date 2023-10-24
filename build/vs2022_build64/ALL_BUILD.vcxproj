@@ -257,7 +257,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{6B972614-D450-3FB7-B64D-DCB00154CD58}</Project>
       <Name>ex19_malloc_array_2D</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex20_hash_table.vcxproj">
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hash_table\exec\ex20_hash_table.vcxproj">
       <Project>{0B7873B4-18B8-3E24-B889-62D0BA9F0DB8}</Project>
       <Name>ex20_hash_table</Name>
     </ProjectReference>
@@ -272,6 +272,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex22_sort_array_fusion_by_index.vcxproj">
       <Project>{5C9F6A59-001F-3E58-B96E-D491AC513F5E}</Project>
       <Name>ex22_sort_array_fusion_by_index</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hash_table\hash_table_lib.vcxproj">
+      <Project>{8649262E-C8E9-3721-863E-4CE44C433F31}</Project>
+      <Name>hash_table_lib</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\list_lib.vcxproj">
       <Project>{18A166C8-9588-33AF-80CE-5A35EC9843CA}</Project>
@@ -296,6 +300,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_fusion_sort.vcxproj">
       <Project>{9E02E581-CBBE-34E9-B3B3-E05341774D94}</Project>
       <Name>test_fusion_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hash_table\exec\test_hash_table.vcxproj">
+      <Project>{C7318FB9-66A6-319E-B38D-E238A6E750A8}</Project>
+      <Name>test_hash_table</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_insertion_sort.vcxproj">
       <Project>{A86ABA0A-FCDF-3BC2-8C56-6A9447183131}</Project>
