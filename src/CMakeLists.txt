@@ -11,6 +11,7 @@ subdirs(list)
 subdirs(exercices)
 subdirs(stack)
 subdirs(hash_table)
+subdirs(file)
 
 
 
