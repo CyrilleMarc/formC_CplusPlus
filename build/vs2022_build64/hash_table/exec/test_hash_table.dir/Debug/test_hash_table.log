@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/hash_table/exec/CMakeLists.txt
+  test_hash_table.c
+  test_hash_table.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hash_table\exec\Debug\test_hash_table.exe

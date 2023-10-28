@@ -6,6 +6,7 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/CMakeFiles/list_lib
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/CMakeFiles/stack_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/CMakeFiles/hash_table_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/file/CMakeFiles/file_lib.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/wordle/CMakeFiles/wordle_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/common/exec/CMakeFiles/test_common.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_bubble_sort.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_insertion_sort.dir
@@ -35,7 +36,9 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFile
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex17_quickSort_array.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex18_fusion_sort.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex19_malloc_array_2D.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex21_general_review.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/exec/CMakeFiles/test_stack.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/exec/CMakeFiles/test_hash_table.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/exec/CMakeFiles/ex20_hash_table.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/file/exec/CMakeFiles/test_file.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/wordle/exec/CMakeFiles/test_wordle.dir

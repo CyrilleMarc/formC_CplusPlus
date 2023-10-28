@@ -1,0 +1,10 @@
+﻿  ex21.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(18,27): warning C4047: 'function': 'int *' differs in levels of indirection from 'int ***'
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(18,27): warning C4024: 'fullfill_array_random': different types for formal and actual parameter 1
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(18,41): warning C4020: 'fullfill_array_random': too many actual parameters
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(23,33): warning C4028: formal parameter 1 different from declaration
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(23,81): warning C4029: declared formal parameter list different from definition
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(28,9): warning C4033: 'fullfill_array_random' must return a value
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(31,11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex21.c(37): warning C4716: 'fullfill_array_random': must return a value
+  ex21.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex21.exe

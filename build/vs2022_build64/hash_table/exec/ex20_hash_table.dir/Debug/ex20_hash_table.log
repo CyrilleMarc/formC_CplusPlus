@@ -1,5 +1,4 @@
-﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/hash_table/exec/CMakeLists.txt
-  ex20_hash_table.c
+﻿  ex20_hash_table.c
 C:\Users\cyril\Desktop\archi_cmake\src\hash_table\exec\ex20_hash_table.c(56,33): warning C4142: 'hashed_number': benign redefinition of type
 C:\Users\cyril\Desktop\archi_cmake\src\hash_table\exec\ex20_hash_table.c(55,9): message : see declaration of 'hashed_number'
 C:\Users\cyril\Desktop\archi_cmake\src\hash_table\exec\ex20_hash_table.c(56,19): error C2374: 'hashed_number': redefinition; multiple initialization

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/exercices/exec/CMakeLists.txt
+  ex19_malloc_array_2D.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex19_malloc_array_2D.c(16,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex19_malloc_array_2D.c(18,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex19_malloc_array_2D.c(39,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ex19_malloc_array_2D.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex19_malloc_array_2D.exe

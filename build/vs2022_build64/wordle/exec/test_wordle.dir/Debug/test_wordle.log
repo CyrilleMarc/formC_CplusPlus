@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/wordle/exec/CMakeLists.txt
+  test_wordle.c
+C:\Users\cyril\Desktop\archi_cmake\src\wordle\exec\test_wordle.c(19,11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\cyril\Desktop\archi_cmake\src\wordle\exec\test_wordle.c(59,32): warning C4013: 'scoring' undefined; assuming extern returning int
+wordle_lib.lib(wordle.obj) : error LNK2019: unresolved external symbol compareWords referenced in function findBestWordInList
+C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\wordle\exec\Debug\test_wordle.exe : fatal error LNK1120: 1 unresolved externals

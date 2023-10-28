@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/exercices/exec/CMakeLists.txt
+  ex01_multiply_two_numbers.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex01_multiply_two_numbers.c(19,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex01_multiply_two_numbers.c(21,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ex01_multiply_two_numbers.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex01_multiply_two_numbers.exe

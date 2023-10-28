@@ -64,6 +64,8 @@ add_executable(ex19_malloc_array_2D ex19_malloc_array_2D.c)
 target_link_libraries(ex19_malloc_array_2D common_lib)
 set_target_properties(ex19_malloc_array_2D PROPERTIES FOLDER "exercices")
 
-
+add_executable(ex21_general_review ex21_general_review.c)
+target_link_libraries(ex21_general_review common_lib)
+set_target_properties(ex21_general_review PROPERTIES FOLDER "exercices")
 
 

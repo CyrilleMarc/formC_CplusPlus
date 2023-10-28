@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/array/exec/CMakeLists.txt
+  ex21_split_array.c
+C:\Users\cyril\Desktop\archi_cmake\src\array\exec\ex21_split_array.c(11,10): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
+  ex21_split_array.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\Debug\ex21_split_array.exe

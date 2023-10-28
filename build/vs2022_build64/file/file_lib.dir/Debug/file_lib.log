@@ -1,0 +1,6 @@
+﻿  file.c
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(9,43): warning C4028: formal parameter 2 different from declaration
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(15,8): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(15,8): warning C4024: 'fputs': different types for formal and actual parameter 1
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(10,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  file_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\Debug\file_lib.lib

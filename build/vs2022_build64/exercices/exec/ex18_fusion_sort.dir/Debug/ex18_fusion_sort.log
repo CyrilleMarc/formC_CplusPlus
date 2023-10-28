@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/exercices/exec/CMakeLists.txt
+  ex18_fusion_sort.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex18_fusion_sort.c(40,14): error C2057: expected constant expression
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex18_fusion_sort.c(40,17): error C2466: cannot allocate an array of constant size 0
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex18_fusion_sort.c(40,9): error C2133: 'left': unknown size
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex18_fusion_sort.c(41,20): error C2057: expected constant expression
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex18_fusion_sort.c(41,25): error C2466: cannot allocate an array of constant size 0
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex18_fusion_sort.c(41,9): error C2133: 'right': unknown size

@@ -1,0 +1,6 @@
+﻿  test_file.c
+C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(6,51): warning C4028: formal parameter 2 different from declaration
+C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(15,5): warning C4013: 'printf' undefined; assuming extern returning int
+C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(16,5): warning C4013: 'fscan' undefined; assuming extern returning int
+C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(13,16): warning C4047: 'initializing': 'const char' differs in levels of indirection from 'char [14]'
+C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(14,23): error C2075: 'content': initialization requires a brace-enclosed initializer list

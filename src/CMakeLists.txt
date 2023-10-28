@@ -12,7 +12,7 @@ subdirs(exercices)
 subdirs(stack)
 subdirs(hash_table)
 subdirs(file)
-
+subdirs(wordle)
 
 
 

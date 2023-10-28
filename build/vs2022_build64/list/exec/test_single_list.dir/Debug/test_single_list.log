@@ -1,3 +1,1 @@
-﻿  test_single_list.c
-C:\Users\cyril\Desktop\archi_cmake\src\list\exec\test_single_list.c(28,2): warning C4013: 'printf' undefined; assuming extern returning int
-  test_single_list.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\Debug\test_single_list.exe
+﻿  test_single_list.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\Debug\test_single_list.exe

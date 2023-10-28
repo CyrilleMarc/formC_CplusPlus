@@ -265,6 +265,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{4ECCD570-1D83-3C04-8913-F1A16BAD64C6}</Project>
       <Name>ex20_sort_array</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex21_general_review.vcxproj">
+      <Project>{4C448033-42DC-3870-850E-8C78ABE40227}</Project>
+      <Name>ex21_general_review</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex21_split_array.vcxproj">
       <Project>{47124F68-2365-3135-93A6-D5738244A40C}</Project>
       <Name>ex21_split_array</Name>
@@ -328,6 +332,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\stack\exec\test_stack.vcxproj">
       <Project>{F71F9D6B-A9DE-398F-B1E2-1FF27F28EDE3}</Project>
       <Name>test_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\wordle\exec\test_wordle.vcxproj">
+      <Project>{BA524EE6-BF83-3CA5-A682-4167C52FD7F1}</Project>
+      <Name>test_wordle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\wordle\wordle_lib.vcxproj">
+      <Project>{DDAA9E9F-5E03-3E7C-80B1-5E0E9FD60DC5}</Project>
+      <Name>wordle_lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
