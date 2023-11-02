@@ -42,7 +42,7 @@ void single_list_display(Liste* list) {
 }
 
 void single_list_delete_first(Liste* list) {
-    if (NULL == list) {
+     if (NULL == list) {
         logger_log(LOG_INFO, __FUNCSIG__, "List do not found\n");
         return;
     }

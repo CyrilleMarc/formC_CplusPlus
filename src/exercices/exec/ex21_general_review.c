@@ -134,6 +134,8 @@ int main(int argc, char* argv[])
 			newCurrent = newCurrent->next;
 		}
 
+		void stack_element_in_stack(Stack *stack, int newNumber)
+
 
 	return 0;
 	
@@ -263,4 +265,55 @@ void delete_element_from_double_list(List *list) {
 	
 }
 
-//****************************STACK*****************************
+//****************************CHAPTER 4 - STACK*****************************
+
+typedef struct Element {
+	int number;
+	struct Element* next;
+} Element;
+
+typedef struct Stack {
+	Element* first;
+} Stack;
+
+void stack_element_in_stack(Stack *stack, int newNumber) {
+
+	Element *newElement = malloc(sizeof(Element));
+	if (NULL == stack) {
+		logger_log(LOG_DEBUG, __FUNCSIG__, "Memory allocation failure");
+		return -1;
+	}
+
+	newElement->number = newNumber;
+	newElement->next = stack->first;
+	stack->first = newElement;
+}
+
+int unstack_element_in_stack(Stack *stack) {
+	if (NULL == stack) {
+		logger_log(LOG_DEBUG, __FUNCSIG__, "Stack not found");
+		return -1;
+	}
+	int unstackNumber = 0;
+	if(NULL != stack->first){
+		Element* unstack = stack->first;
+
+		unstackNumber = unstack->number;
+		stack->first = unstack->next;
+		free(unstack);
+	}
+	return unstackNumber;
+}
+
+void display_element_in_stack(Stack* stack, int number_of_element){
+	if (NULL == stack) {
+		logger_log(LOG_DEBUG, __FUNCSIG__, "Stack not found");
+		return -1;
+	}
+
+	Element* current = stack->first;
+	while(NULL != current){
+		number_of_element = current;
+		current = current->next;
+	}
+}
