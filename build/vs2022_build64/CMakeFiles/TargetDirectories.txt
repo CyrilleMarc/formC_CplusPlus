@@ -7,6 +7,7 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/CMakeFiles/stack_l
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/CMakeFiles/hash_table_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/file/CMakeFiles/file_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/wordle/CMakeFiles/wordle_lib.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hangman_game/CMakeFiles/hangman_game_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/common/exec/CMakeFiles/test_common.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_bubble_sort.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_insertion_sort.dir
@@ -42,3 +43,4 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/exec/CMakeFil
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/exec/CMakeFiles/ex20_hash_table.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/file/exec/CMakeFiles/test_file.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/wordle/exec/CMakeFiles/test_wordle.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hangman_game/exec/CMakeFiles/test_hangman_game.dir

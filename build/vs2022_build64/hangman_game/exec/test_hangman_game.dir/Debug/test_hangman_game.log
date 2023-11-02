@@ -1,0 +1,5 @@
+﻿  test_hangman_game.c
+C:\Users\cyril\Desktop\archi_cmake\src\hangman_game\exec\test_hangman_game.c(33,7): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\cyril\Desktop\archi_cmake\src\hangman_game\exec\test_hangman_game.c(14,7): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [1]'
+C:\Users\cyril\Desktop\archi_cmake\src\hangman_game\exec\test_hangman_game.c(23,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test_hangman_game.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hangman_game\exec\Debug\test_hangman_game.exe

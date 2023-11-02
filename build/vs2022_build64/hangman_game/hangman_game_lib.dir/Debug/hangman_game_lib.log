@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/cyril/Desktop/archi_cmake/src/hangman_game/CMakeLists.txt
+  hangman.c
+  hangman_game_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hangman_game\Debug\hangman_game_lib.lib

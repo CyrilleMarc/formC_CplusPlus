@@ -281,6 +281,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{1B8B296E-59F3-3CEC-8870-C882C484ABE9}</Project>
       <Name>file_lib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hangman_game\hangman_game_lib.vcxproj">
+      <Project>{3E05DCE9-1BC6-36C9-88D4-D6F09DF0E8BE}</Project>
+      <Name>hangman_game_lib</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hash_table\hash_table_lib.vcxproj">
       <Project>{8649262E-C8E9-3721-863E-4CE44C433F31}</Project>
       <Name>hash_table_lib</Name>
@@ -312,6 +316,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_fusion_sort.vcxproj">
       <Project>{9E02E581-CBBE-34E9-B3B3-E05341774D94}</Project>
       <Name>test_fusion_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hangman_game\exec\test_hangman_game.vcxproj">
+      <Project>{CA806EB4-F502-32F6-A8AD-48C1468F096E}</Project>
+      <Name>test_hangman_game</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\hash_table\exec\test_hash_table.vcxproj">
       <Project>{C7318FB9-66A6-319E-B38D-E238A6E750A8}</Project>

@@ -13,6 +13,7 @@ subdirs(stack)
 subdirs(hash_table)
 subdirs(file)
 subdirs(wordle)
+subdirs(hangman_game)
 
 
 
