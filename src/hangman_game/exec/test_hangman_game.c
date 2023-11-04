@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	logger_set_current_level(LOG_DEBUG);
 	logger_log(LOG_DEBUG, __FUNCSIG__, argv[0]);
 
-	char word_to_find[6] = "mimie";
+	char word_to_find[6] = "games";
 	char letter = "";
 	char response[6] = "*****";
 	int try = 0;
@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
 	int j = 0;
 
 	while (5 > try) {
-		printf("Entrez 1 lettre en minuscule :\n");
+		printf("Entrez 1 lettre :\n");
 		scanf(" %c", &letter);
 		for (i = 0; i < 5; ++i) {
 			if (letter == word_to_find[i] && response[i] == '*') {
