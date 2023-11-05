@@ -289,6 +289,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{8649262E-C8E9-3721-863E-4CE44C433F31}</Project>
       <Name>hash_table_lib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\lifeGame\lifeGame_lib.vcxproj">
+      <Project>{E149CE1C-966B-31D5-A8AE-9A1BDD89BD4F}</Project>
+      <Name>lifeGame_lib</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\list_lib.vcxproj">
       <Project>{18A166C8-9588-33AF-80CE-5A35EC9843CA}</Project>
       <Name>list_lib</Name>
@@ -328,6 +332,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_insertion_sort.vcxproj">
       <Project>{A86ABA0A-FCDF-3BC2-8C56-6A9447183131}</Project>
       <Name>test_insertion_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\lifeGame\exec\test_lifeGame.vcxproj">
+      <Project>{41F00577-1563-34E0-83E1-22C431634B45}</Project>
+      <Name>test_lifeGame</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_quick_sort.vcxproj">
       <Project>{674EDFA4-5638-3E2B-8549-6506C9F1B4EA}</Project>

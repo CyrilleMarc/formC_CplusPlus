@@ -1,0 +1,4 @@
+﻿  lifeGame.c
+C:\Users\cyril\Desktop\archi_cmake\src\lifeGame\lifeGame.c(15,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\lifeGame\lifeGame.c(57,43): warning C4013: 'init_of_number_one' undefined; assuming extern returning int
+  lifeGame_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\lifeGame\Debug\lifeGame_lib.lib
