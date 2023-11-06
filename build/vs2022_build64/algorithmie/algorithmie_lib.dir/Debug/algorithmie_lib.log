@@ -1,0 +1,5 @@
+﻿  algorithmie.c
+C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\algorithmie.c(9,35): warning C4028: formal parameter 1 different from declaration
+C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\algorithmie.c(16,9): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\algorithmie.c(21,26): warning C4098: 'function_array_to_test': 'void' function returning a value
+  algorithmie_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\algorithmie\Debug\algorithmie_lib.lib

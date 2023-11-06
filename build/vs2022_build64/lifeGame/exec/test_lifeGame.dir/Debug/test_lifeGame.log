@@ -1,4 +1,5 @@
 ﻿  test_lifeGame.c
 C:\Users\cyril\Desktop\archi_cmake\src\lifeGame\exec\test_lifeGame.c(12,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: "link.exe" exited with code 1120.
 lifeGame_lib.lib(lifeGame.obj) : error LNK2019: unresolved external symbol init_of_number_one referenced in function display_world
 C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\lifeGame\exec\Debug\test_lifeGame.exe : fatal error LNK1120: 1 unresolved externals
