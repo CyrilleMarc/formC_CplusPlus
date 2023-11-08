@@ -8,8 +8,6 @@ int main(int argc, char* argv[])
 	logger_set_current_level(LOG_DEBUG);
 	logger_log(LOG_DEBUG, __FUNCSIG__, argv[0]);
 
-
-
 	Liste* newList = single_list_init();
 
 	for (int i = 0; i <= 20; ++i) {

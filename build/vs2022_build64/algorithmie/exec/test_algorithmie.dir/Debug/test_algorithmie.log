@@ -1,4 +1,4 @@
 ﻿  test_algorithmie.c
-C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\exec\test_algorithmie.c(18,25): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\exec\test_algorithmie.c(18,25): warning C4024: 'function_array_to_test': different types for formal and actual parameter 1
+C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\exec\test_algorithmie.c(19,25): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\cyril\Desktop\archi_cmake\src\algorithmie\exec\test_algorithmie.c(19,25): warning C4024: 'function_array_to_test': different types for formal and actual parameter 1
   test_algorithmie.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\algorithmie\exec\Debug\test_algorithmie.exe

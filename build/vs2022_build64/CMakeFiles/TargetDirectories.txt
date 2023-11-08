@@ -23,6 +23,8 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/ex
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/ex22_sort_array_fusion_by_index.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/exec/CMakeFiles/test_single_list.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/exec/CMakeFiles/test_double_list.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/exec/CMakeFiles/test_current_list.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/list/exec/CMakeFiles/test_current_doubleList.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex01_multiply_two_numbers.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex02_exchange_two_numbers.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex03_convert_letter_hexadecimal.dir

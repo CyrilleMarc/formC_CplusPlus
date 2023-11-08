@@ -15,6 +15,7 @@ subdirs(file)
 subdirs(wordle)
 subdirs(hangman_game)
 subdirs(lifeGame)
+subdirs(algorithmie)
 
 
 

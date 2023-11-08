@@ -16,7 +16,7 @@ int init_insert_size_of_world() {
 	return number_of_case;
 }
 
-
+/*
 int random_number(int min, int max) {
 	return (rand() % (max - min + 1)) + min;
 }
@@ -109,3 +109,4 @@ int neighbour_number(int world[20][20], int i, int j) {
 			}
 			return neighbour_total;
 }
+*/

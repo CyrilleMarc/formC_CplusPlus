@@ -265,6 +265,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.c" />
+    <ClInclude Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.h" />
+    <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_list.c" />
+    <ClInclude Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_list.h" />
     <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\double_list.c" />
     <ClInclude Include="C:\Users\cyril\Desktop\archi_cmake\src\list\double_list.h" />
     <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\single_list.c" />

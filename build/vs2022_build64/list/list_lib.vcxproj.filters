@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\cyril\Desktop\archi_cmake\src\list\double_list.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -9,6 +15,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cyril\Desktop\archi_cmake\src\list\current_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\cyril\Desktop\archi_cmake\src\list\double_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>

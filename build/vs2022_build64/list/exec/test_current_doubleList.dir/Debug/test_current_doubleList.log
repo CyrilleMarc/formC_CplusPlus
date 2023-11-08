@@ -1,0 +1,4 @@
+﻿  test_current_doubleList.c
+C:\Users\cyril\Desktop\archi_cmake\src\list\exec\test_current_doubleList.c(26,9): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\cyril\Desktop\archi_cmake\src\list\exec\test_current_doubleList.c(17,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  test_current_doubleList.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\Debug\test_current_doubleList.exe

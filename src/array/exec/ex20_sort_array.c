@@ -8,7 +8,7 @@ int main()
 	logger_log(LOG_DEBUG, __FUNCSIG__, "");
 
 
-    array_bubble_sort_i():
+	array_bubble_sort_i();
     return 0,
 }
 

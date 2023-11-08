@@ -317,6 +317,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{F1C8FC61-EB27-3C1B-8266-CABC169887A1}</Project>
       <Name>test_common</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\test_current_doubleList.vcxproj">
+      <Project>{14D2156C-703E-3A5F-A47B-3AC985B6C8D7}</Project>
+      <Name>test_current_doubleList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\test_current_list.vcxproj">
+      <Project>{911D0F3B-4C2D-3CEB-BE53-8302F221CB7A}</Project>
+      <Name>test_current_list</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\test_double_list.vcxproj">
       <Project>{4B54D36B-8E7E-3F82-B6EC-D72CC43AE53A}</Project>
       <Name>test_double_list</Name>
