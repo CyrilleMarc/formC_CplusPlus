@@ -89,3 +89,15 @@ int list_is_sorted(Liste* liste) {
 	}
 	return isLess == count;
 }
+
+int init_file_to_store(const char *fileName, double *content, int liste_element_count) {
+	FILE* file = fopen(fileName, "a+");
+	if (NULL == file) 
+	{
+		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found");
+		return 1;
+	}
+	fprintf(file, "%06f secondes pour un tri de %d entrées\n", *content, liste_element_count);
+	fclose(file);
+	return 0;
+}

@@ -1,22 +1,23 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 #include <common/common.h>
 #include <file/file.h>
 
-int init_file(const char *fileName, char *content);
+
 
 int main(int argc, char *argv[])
 {
     logger_set_current_level(LOG_DEBUG);
     logger_log(LOG_DEBUG, __FUNCSIG__, argv[0]);
 
-    const char fileName = "word_list.txt";
-    char *content[] = NULL;
-    printf("Enter a word");
-    fscan("%c", content);
-    if (NULL != content) {
-        printf("%c", *content);
-    }
+    const char *fileName = "C:/Users/cyril/Desktop/dataFiles/wordList.txt";
+    const char *content[20] = { 0 };
+
+    printf("Enter a word :");
+    scanf("%s \n", content);
+
+    init_file(fileName, content);
 
     return 0;
 

@@ -18,3 +18,5 @@ add_executable(test_current_doubleList test_current_doubleList.c)
 target_link_libraries(test_current_doubleList list_lib common_lib)
 set_target_properties(test_current_doubleList PROPERTIES FOLDER "list")
 
+
+

@@ -7,12 +7,15 @@
 #include <list/current_doubleList.h>
 
 
+
 int main(int argc, int* argv)
 {
 	logger_set_current_level(LOG_DEBUG);
 	logger_log(LOG_DEBUG, __FUNCSIG__, "");
 
 	int i = 2;
+	const char *fileName = "C:/Users/cyril/Desktop/dataFiles/complexity.txt";
+	int liste_element_count = 0;
 	while (i < 10) {
 		int liste_element_count = pow(2, i);
 		int maxValue = 8192;
@@ -37,8 +40,8 @@ int main(int argc, int* argv)
 		}
 		printf("\n");
 
-		clock_t start1, end1;
-		double cpu_time_used1;
+		clock_t start1, end1 = 0;
+		double cpu_time_used1 = 0;
 
 		list_sort(liste);
 		printf("**********sorted list***********\n");
@@ -63,6 +66,7 @@ int main(int argc, int* argv)
 			printf("List sorted Failure");
 			printf("\n\n");
 		}
+		init_file_to_store(fileName, &cpu_time_used1, liste_element_count);
 		freeList(liste);
 	}
 	return 0;
