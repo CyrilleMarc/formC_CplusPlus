@@ -1,3 +1,5 @@
 ﻿  current_doubleList.c
-C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.c(94,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.c(115,24): warning C4474: 'fprintf' : too many arguments passed for format string
+C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.c(115,24): message : placeholders and their parameters expect 0 variadic arguments, but 2 were provided
+C:\Users\cyril\Desktop\archi_cmake\src\list\current_doubleList.c(108,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   list_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\Debug\list_lib.lib
