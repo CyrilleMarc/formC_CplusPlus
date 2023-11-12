@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include <common/common.h>
 #include <list/current_doubleList.h>
@@ -124,14 +125,31 @@ int init_file_to_store(const char *fileName, double *content, int liste_element_
 	return 0;
 }
 
-/*
-int retrieve_data_from_file(const char* fileName, double* content)
+
+int retrieve_data_from_file(const char* fileName, const char *fileName2)
 {
 	FILE* file = fopen(fileName, "r");
-	double* dataFromFile = 0;
-
-	while (fscanf(fileName, "%f", dataFromFile) == 1)
+	FILE* file2 = fopen(fileName2, "a");
+	int dataFromFile = 0;
+	if (NULL == file || NULL == file2)
 	{
-		printf("%f\n", dataFromFile);
+		logger_log(LOG_DEBUG, __FUNCSIG__, "Files not found");
 	}
-}*/
+
+	while ((dataFromFile = fgetc(file)) != EOF)
+	{
+		if (isspace(dataFromFile))
+		{
+			fputc(' ', file2);
+		}
+		else if (isalpha(dataFromFile))
+		{
+			fputc(dataFromFile, file2);
+		}
+	}
+	if ((fclose(file) == 0) && (fclose(file2) == 0)) {
+		logger_log(LOG_INFO, __FUNCSIG__, "files closed successfully");
+		return 0;
+	}
+	
+}

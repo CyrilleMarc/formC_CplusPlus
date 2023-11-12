@@ -16,6 +16,6 @@ void list_sort(Liste* liste);
 int list_is_sorted(Liste* list);
 void freeList(Liste* liste);
 int init_file_to_store(const char *fileName, double *content, int liste_element_count);
-//int retrieve_data_from_file(const char* fileName, double* content);
+int retrieve_data_from_file(const char* fileName, const char* fileName2);
 
 

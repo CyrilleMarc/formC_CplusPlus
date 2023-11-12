@@ -15,7 +15,9 @@ int main(int argc, int* argv)
 
 	int i = 2;
 	const char *fileName = "C:/Users/cyril/Desktop/dataFiles/complexity.txt";
+	const char* fileName2 = "C:/Users/cyril/Desktop/dataFiles/datasorted.txt";
 	int liste_element_count = 0;
+
 	while (i < 12) {
 		int liste_element_count = pow(2, i);
 		int maxValue = 8192;
@@ -67,8 +69,8 @@ int main(int argc, int* argv)
 			printf("\n\n");
 		}
 		init_file_to_store(fileName, &cpu_time_used1, liste_element_count);
-		/*double *content = 0;
-		retrieve_data_from_file(fileName, &content);*/
+		double *content = 0;
+		retrieve_data_from_file(fileName, fileName2);
 		freeList(liste);
 	}
 	return 0;

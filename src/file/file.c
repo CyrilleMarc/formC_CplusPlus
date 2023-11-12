@@ -14,11 +14,11 @@ int init_file(const char *fileName, const char *content) {
 	}
 	fputs(content, file);
 	if (fputs(content, file) == EOF) {
-		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found\n");
+		logger_log(LOG_DEBUG, __FUNCSIG__, "fputs function failed\n");
 		return -1;
 	}
 	fclose(file);
-	if (fclose(file) == EOF) {
+	if (fclose(file) != 0) {
 		return 1;
 	}
 	return 0;
