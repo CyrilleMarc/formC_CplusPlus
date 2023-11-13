@@ -117,14 +117,43 @@ int init_file_to_store(const char *fileName, double *content, int liste_element_
 		logger_log(LOG_DEBUG, __FUNCSIG__, "function failed");
 		return -1;
 	}
-	fclose(file);
-	if (fclose(file) == 0) 
+	if (fclose(file) != 0) 
 	{
 		logger_log(LOG_DEBUG, __FUNCSIG__, "function failed");
 	}
 	return 0;
 }
 
+int create_random_value_file(const char *fileName)
+{
+	FILE* file = fopen(fileName, "w");
+	if (NULL == file)
+	{
+		logger_log(LOG_DEBUG, __FUNCSIG__, "File not created or found");
+		return 1;
+	}
+	srand(time(NULL));
+	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()/\|}{+=¤-_";
+
+	int f = 0;
+	while (f <= 40)
+	{
+		for (int i = 0; i < 300; ++i)
+		{
+			int randomValue = rand() % (sizeof(characters) - 1);
+			fprintf(file, " %c", characters[randomValue]);
+		}
+		f++;
+	}
+	
+	
+	
+	if (fclose(file) != 0)
+	{
+		logger_log(LOG_DEBUG, __FUNCSIG__, "File not closed successfully");
+	}
+	return 0;
+}
 
 int retrieve_data_from_file(const char* fileName, const char *fileName2)
 {
@@ -140,15 +169,15 @@ int retrieve_data_from_file(const char* fileName, const char *fileName2)
 	{
 		if (isspace(dataFromFile))
 		{
-			fputc(' ', file2);
+			fputc('\n', file2);
 		}
 		else if (isalpha(dataFromFile))
 		{
 			fputc(dataFromFile, file2);
 		}
 	}
-	if ((fclose(file) == 0) && (fclose(file2) == 0)) {
-		logger_log(LOG_INFO, __FUNCSIG__, "files closed successfully");
+	if ((fclose(file) != 0) && (fclose(file2) != 0)) {
+		logger_log(LOG_DEBUG, __FUNCSIG__, "files closure failure");
 		return 0;
 	}
 	

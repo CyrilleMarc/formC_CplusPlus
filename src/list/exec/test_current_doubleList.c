@@ -16,9 +16,11 @@ int main(int argc, int* argv)
 	int i = 2;
 	const char *fileName = "C:/Users/cyril/Desktop/dataFiles/complexity.txt";
 	const char* fileName2 = "C:/Users/cyril/Desktop/dataFiles/datasorted.txt";
+	const char* fileName3 = "C:/Users/cyril/Desktop/dataFiles/randomData.txt";
 	int liste_element_count = 0;
 
-	while (i < 12) {
+	while (i < 12)
+	{
 		int liste_element_count = pow(2, i);
 		int maxValue = 8192;
 		printf("**********************ITERATION %d*****************\n", i);
@@ -29,7 +31,8 @@ int main(int argc, int* argv)
 			return 1;
 		}
 		srand(time(NULL));
-		for (int i = 0; i < liste_element_count; ++i) {
+		for (int i = 0; i < liste_element_count; ++i)
+		{
 			int randomValue = rand() % (maxValue + 1);
 			insert_element_in_doubleListe_i(liste, randomValue);
 		}
@@ -49,7 +52,8 @@ int main(int argc, int* argv)
 		printf("**********sorted list***********\n");
 		start1 = clock();
 		Element* currentSort = liste->first;
-		for (int i = 0; i < liste_element_count; ++i) {
+		for (int i = 0; i < liste_element_count; ++i)
+		{
 			printf("%d ", currentSort->number);
 			currentSort = currentSort->next;
 		}
@@ -60,19 +64,23 @@ int main(int argc, int* argv)
 		printf("Nombre d'entree n : %d\n", liste_element_count);
 		++i;
 
-		if(list_is_sorted(liste)) {
+		if (list_is_sorted(liste))
+		{
 			printf("List sorted successfully");
 			printf("\n\n");
 		}
-		else {
+		else
+		{
 			printf("List sorted Failure");
 			printf("\n\n");
 		}
+
 		init_file_to_store(fileName, &cpu_time_used1, liste_element_count);
 		double *content = 0;
 		retrieve_data_from_file(fileName, fileName2);
 		freeList(liste);
 	}
+		create_random_value_file(fileName3);
 	return 0;
 }
 
