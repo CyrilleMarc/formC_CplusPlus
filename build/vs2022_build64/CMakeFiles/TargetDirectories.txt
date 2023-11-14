@@ -10,6 +10,7 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/wordle/CMakeFiles/wordle
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hangman_game/CMakeFiles/hangman_game_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/lifeGame/CMakeFiles/lifeGame_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/algorithmie/CMakeFiles/algorithmie_lib.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/fichier_binaire/CMakeFiles/fichier_binaire_lib.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/common/exec/CMakeFiles/test_common.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_bubble_sort.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/array/exec/CMakeFiles/test_insertion_sort.dir
@@ -50,3 +51,4 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/wordle/exec/CMakeFiles/t
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hangman_game/exec/CMakeFiles/test_hangman_game.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/lifeGame/exec/CMakeFiles/test_lifeGame.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/algorithmie/exec/CMakeFiles/test_algorithmie.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/fichier_binaire/exec/CMakeFiles/test_fichier_binaire.dir

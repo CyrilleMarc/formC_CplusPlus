@@ -281,6 +281,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{5C9F6A59-001F-3E58-B96E-D491AC513F5E}</Project>
       <Name>ex22_sort_array_fusion_by_index</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\fichier_binaire\fichier_binaire_lib.vcxproj">
+      <Project>{8C6FB6A6-E4B2-31F0-B70B-791A2E308FEF}</Project>
+      <Name>fichier_binaire_lib</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\file_lib.vcxproj">
       <Project>{1B8B296E-59F3-3CEC-8870-C882C484ABE9}</Project>
       <Name>file_lib</Name>
@@ -328,6 +332,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\list\exec\test_double_list.vcxproj">
       <Project>{4B54D36B-8E7E-3F82-B6EC-D72CC43AE53A}</Project>
       <Name>test_double_list</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\fichier_binaire\exec\test_fichier_binaire.vcxproj">
+      <Project>{F79011E6-6690-36AA-AFA9-A31397CE7191}</Project>
+      <Name>test_fichier_binaire</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\exec\test_file.vcxproj">
       <Project>{DD915481-41E8-3FF0-9ECA-475A9FBB1DCC}</Project>

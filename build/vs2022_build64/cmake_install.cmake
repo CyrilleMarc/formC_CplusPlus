@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hangman_game/cmake_install.cmake")
   include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/lifeGame/cmake_install.cmake")
   include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/algorithmie/cmake_install.cmake")
+  include("C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/fichier_binaire/cmake_install.cmake")
 
 endif()
 

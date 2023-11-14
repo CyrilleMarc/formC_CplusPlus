@@ -1,0 +1,3 @@
+﻿  test_fichier_binaire.c
+C:\Users\cyril\Desktop\archi_cmake\src\fichier_binaire\exec\test_fichier_binaire.c(11,41): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+  test_fichier_binaire.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\fichier_binaire\exec\Debug\test_fichier_binaire.exe

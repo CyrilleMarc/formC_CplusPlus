@@ -1,0 +1,5 @@
+﻿  fichier_binaire.c
+C:\Users\cyril\Desktop\archi_cmake\src\fichier_binaire\fichier_binaire.c(7,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\fichier_binaire\fichier_binaire.c(28,35): warning C4090: 'function': different 'const' qualifiers
+C:\Users\cyril\Desktop\archi_cmake\src\fichier_binaire\fichier_binaire.c(26,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fichier_binaire_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\fichier_binaire\Debug\fichier_binaire_lib.lib
