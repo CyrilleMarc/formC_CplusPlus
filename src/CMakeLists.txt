@@ -17,6 +17,7 @@ subdirs(hangman_game)
 subdirs(lifeGame)
 subdirs(algorithmie)
 subdirs(fichier_binaire)
+subdirs(arbre_binaire)
 
 
 

@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{27B653E2-4F50-33D8-A641-4AE2F546A0E1}</Project>
       <Name>algorithmie_lib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\arbre_binaire\arbre_binaire_lib.vcxproj">
+      <Project>{0461E7BB-76F3-3B5F-A30E-658E1B57C189}</Project>
+      <Name>arbre_binaire_lib</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\array_lib.vcxproj">
       <Project>{6C3BCAF1-5CEF-3498-ADA3-2656783C0446}</Project>
       <Name>array_lib</Name>
@@ -312,6 +316,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\algorithmie\exec\test_algorithmie.vcxproj">
       <Project>{C851F621-6A68-3F1C-BE57-E5DD5EF67F2A}</Project>
       <Name>test_algorithmie</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\arbre_binaire\exec\test_arbre_binaire.vcxproj">
+      <Project>{894126DC-F543-38CB-9BC2-65EAEBA2C3A4}</Project>
+      <Name>test_arbre_binaire</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\test_bubble_sort.vcxproj">
       <Project>{0025BACC-343A-3EEB-8921-387B5009E0C5}</Project>
