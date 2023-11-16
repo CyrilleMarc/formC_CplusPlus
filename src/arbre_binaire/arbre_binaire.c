@@ -55,7 +55,8 @@ Tree* joinTree(Tree* left, Tree* right, int node)
 	return tree;
 }
 
-void display_binary_tree(Tree* tree)
+//prefixe -> tout les left en premier
+int display_binary_tree(Tree* tree)
 {
 	if (NULL == tree)
 	{
@@ -78,5 +79,20 @@ void display_binary_tree(Tree* tree)
 	if (NULL != tree->tright)
 	{
 		display_binary_tree(tree->tright);
+	}
+	return tree;
+}
+
+int tree_count(Tree *tree)
+{
+	if (NULL == tree)
+	{
+		logger_log(LOG_DEBUG, __FUNCSIG__, "Tree is empty");
+		return 0;
+	}
+	else 
+	{
+		return tree_count(tree->tleft) + tree_count(tree->tright) + 1;
+	
 	}
 }

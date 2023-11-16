@@ -12,4 +12,5 @@ typedef struct Tree
 Tree* new_Binary_Tree(int number);
 int freeTree(Tree* tree);
 Tree* joinTree(Tree* left, Tree* right, int node);
-void display_binary_tree(Tree* tree);
+int display_binary_tree(Tree* tree);
+int tree_count(Tree* tree);

@@ -1,4 +1,7 @@
 ﻿  arbre_binaire.c
 C:\Users\cyril\Desktop\archi_cmake\src\arbre_binaire\arbre_binaire.c(31,3): warning C4033: 'freeTree' must return a value
+C:\Users\cyril\Desktop\archi_cmake\src\arbre_binaire\arbre_binaire.c(64,3): warning C4033: 'display_binary_tree' must return a value
+C:\Users\cyril\Desktop\archi_cmake\src\arbre_binaire\arbre_binaire.c(83,2): warning C4047: 'return': 'int' differs in levels of indirection from 'Tree *'
 C:\Users\cyril\Desktop\archi_cmake\src\arbre_binaire\arbre_binaire.c(38): warning C4715: 'freeTree': not all control paths return a value
+C:\Users\cyril\Desktop\archi_cmake\src\arbre_binaire\arbre_binaire.c(84): warning C4715: 'display_binary_tree': not all control paths return a value
   arbre_binaire_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\arbre_binaire\Debug\arbre_binaire_lib.lib
