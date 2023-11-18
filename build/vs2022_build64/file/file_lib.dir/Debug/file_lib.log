@@ -1,3 +1,5 @@
 ﻿  file.c
-C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(10,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(11,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(17,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(33): warning C4715: 'convert_file': not all control paths return a value
   file_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\Debug\file_lib.lib

@@ -6,19 +6,30 @@
 #include "file.h" 
 #include "common/common.h"
 
-int init_file(const char *fileName, const char *content) {
-	FILE *file = fopen(fileName, "a");
-	if(NULL == file) {
+char *convert_file(const char* fileName, const char *fileName2)
+{
+	FILE* fileIn = fopen(fileName, "r");
+	if (NULL == fileIn)
+	{
 		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found\n");
-		return 1;
+		return NULL;
+	}
+	FILE* fileOut = fopen(fileName2, "w");
+	if (NULL == fileOut)
+	{
+		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found\n");
+		return NULL;
 	}
 
-	if (fputs(content, file) == EOF) {
-		logger_log(LOG_DEBUG, __FUNCSIG__, "fputs function failed\n");
-		return -1;
+	char line[1024];
+	while (fgets(line, sizeof(line), fileIn))
+	{
+		fputs(line, fileOut);
 	}
-	if (fclose(file) != 0) {
-		return 1;
-	}
-	return 0;
+
+	fclose(fileIn);
+	fclose(fileOut);
+
 }
+	
+
