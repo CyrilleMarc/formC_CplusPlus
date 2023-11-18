@@ -92,7 +92,7 @@ int tree_count(Tree *tree)
 	}
 	else 
 	{
-		return tree_count(tree->tleft) + tree_count(tree->tright) + 1;
+		return 1 + tree_count(tree->tleft) + tree_count(tree->tright);
 	
 	}
 }

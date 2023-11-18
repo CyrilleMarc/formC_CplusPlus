@@ -1,6 +1,1 @@
-﻿  test_file.c
-C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(18,11): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
-C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(20,25): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[20]'
-C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(20,25): warning C4024: 'init_file': different types for formal and actual parameter 2
-C:\Users\cyril\Desktop\archi_cmake\src\file\exec\test_file.c(18,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  test_file.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\exec\Debug\test_file.exe
+﻿  test_file.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\exec\Debug\test_file.exe

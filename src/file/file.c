@@ -7,17 +7,16 @@
 #include "common/common.h"
 
 int init_file(const char *fileName, const char *content) {
-	FILE *file = fopen(fileName, "w");
+	FILE *file = fopen(fileName, "a");
 	if(NULL == file) {
 		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found\n");
 		return 1;
 	}
-	fputs(content, file);
+
 	if (fputs(content, file) == EOF) {
 		logger_log(LOG_DEBUG, __FUNCSIG__, "fputs function failed\n");
 		return -1;
 	}
-	fclose(file);
 	if (fclose(file) != 0) {
 		return 1;
 	}
