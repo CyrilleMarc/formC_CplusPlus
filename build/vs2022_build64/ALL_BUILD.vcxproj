@@ -281,6 +281,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{47124F68-2365-3135-93A6-D5738244A40C}</Project>
       <Name>ex21_split_array</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex22_files_handling.vcxproj">
+      <Project>{97E14E7F-6B88-3170-93B6-DA0BC3A291C0}</Project>
+      <Name>ex22_files_handling</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\array\exec\ex22_sort_array_fusion_by_index.vcxproj">
       <Project>{5C9F6A59-001F-3E58-B96E-D491AC513F5E}</Project>
       <Name>ex22_sort_array_fusion_by_index</Name>

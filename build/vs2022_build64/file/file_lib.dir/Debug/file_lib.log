@@ -1,5 +1,12 @@
 ﻿  file.c
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(23,13): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(25,20): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(25,20): warning C4024: 'strcpy': different types for formal and actual parameter 1
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(25,11): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
 C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(11,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(17,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(33): warning C4715: 'convert_file': not all control paths return a value
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(12,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(19,7): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [1]'
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(20,7): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [1]'
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(25,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\file\file.c(36): warning C4715: 'convert_file': not all control paths return a value
   file_lib.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\file\Debug\file_lib.lib

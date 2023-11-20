@@ -68,4 +68,8 @@ add_executable(ex21_general_review ex21_general_review.c)
 target_link_libraries(ex21_general_review common_lib)
 set_target_properties(ex21_general_review PROPERTIES FOLDER "exercices")
 
+add_executable(ex22_files_handling ex22_files_handling.c)
+target_link_libraries(ex22_files_handling common_lib)
+set_target_properties(ex22_files_handling PROPERTIES FOLDER "exercices")
+
 

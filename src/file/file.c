@@ -9,23 +9,26 @@
 char *convert_file(const char* fileName, const char *fileName2)
 {
 	FILE* fileIn = fopen(fileName, "r");
-	if (NULL == fileIn)
-	{
-		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found\n");
-		return NULL;
-	}
 	FILE* fileOut = fopen(fileName2, "w");
-	if (NULL == fileOut)
+	if ((NULL == fileIn) || (NULL == fileOut))
 	{
 		logger_log(LOG_DEBUG, __FUNCSIG__, "File not found\n");
 		return NULL;
 	}
 
-	char line[1024];
-	while (fgets(line, sizeof(line), fileIn))
-	{
-		fputs(line, fileOut);
+	const char *token = "";
+	char token2 = "";
+	do {
+		token = fgetc(fileIn);
+		if (token = "\n")
+		{
+			token2 = strcpy(token, "");
+		}
+		printf("%c", token2);
+		fprintf(fileOut, "%c", token2);
 	}
+	while (token != EOF);
+	
 
 	fclose(fileIn);
 	fclose(fileOut);
