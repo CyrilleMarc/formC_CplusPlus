@@ -45,6 +45,7 @@ C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFile
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex19_malloc_array_2D.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex21_general_review.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex22_files_handling.dir
+C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/exercices/exec/CMakeFiles/ex23_files_handling.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/stack/exec/CMakeFiles/test_stack.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/exec/CMakeFiles/test_hash_table.dir
 C:/Users/cyril/Desktop/archi_cmake/build/vs2022_build64/hash_table/exec/CMakeFiles/ex20_hash_table.dir

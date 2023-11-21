@@ -1,0 +1,5 @@
+﻿  ex23_files_handling.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex23_files_handling.c(21,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex23_files_handling.c(22,29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex23_files_handling.c(30,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ex23_files_handling.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex23_files_handling.exe

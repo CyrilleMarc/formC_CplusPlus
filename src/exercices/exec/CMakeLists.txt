@@ -73,3 +73,6 @@ target_link_libraries(ex22_files_handling common_lib)
 set_target_properties(ex22_files_handling PROPERTIES FOLDER "exercices")
 
 
+add_executable(ex23_files_handling ex23_files_handling.c)
+target_link_libraries(ex23_files_handling common_lib)
+set_target_properties(ex23_files_handling PROPERTIES FOLDER "exercices")
