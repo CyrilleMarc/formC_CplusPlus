@@ -293,6 +293,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{EB5528A8-4DD6-37EE-A599-B3FC48FC979F}</Project>
       <Name>ex23_files_handling</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex24_files_sorting.vcxproj">
+      <Project>{6CB97FCF-985B-3F3C-92E0-59EC1E2D84A7}</Project>
+      <Name>ex24_files_sorting</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\fichier_binaire\fichier_binaire_lib.vcxproj">
       <Project>{8C6FB6A6-E4B2-31F0-B70B-791A2E308FEF}</Project>
       <Name>fichier_binaire_lib</Name>

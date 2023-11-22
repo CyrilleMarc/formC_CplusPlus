@@ -7,10 +7,10 @@
 
 struct data
 {
-    int session;
-    char filter[30];
-    char session_id[10];
-    char status[13];
+    char session[24];
+    char filter[24];
+    char session_id[30];
+    char status[14];
     char reason[10];
     char server[20];
     char player[10];
@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
     logger_log(LOG_DEBUG, __FUNCSIG__, argv[0]);
 
     FILE* sourceFile = fopen("C:/Users/cyril/Desktop/dataFiles/Session_data.txt", "r");
-    FILE* destinationFile = fopen("C:/Users/cyril/Desktop/dataFiles/Session_data_sorted.txt", "w");
+    FILE* destinationFile = fopen("C:/Users/cyril/Desktop/dataFiles/Session_data_sorted2.csv", "w");
   
 
     if (NULL == sourceFile  || NULL == destinationFile )
@@ -41,11 +41,12 @@ int main(int argc, char* argv[])
         logger_log(LOG_DEBUG, __FUNCSIG__, "File not found");
         return;
     }
+
  
     char line[1024]; 
     while (fgets(line, sizeof(line), sourceFile) != NULL)
     {
-        sscanf(line, "%d %29s %9s %12s %9s %19s %9s %29s %9s %9s %d %d %d %9s",
+        sscanf(line, "%23s %23s %[^ ]9s %[^ ]13s %[^\n]9s %19s %9s %29s %9s %9s %d %d %d %9s",
             &backend_Gamestream.session, 
             backend_Gamestream.filter,
             backend_Gamestream.session_id,
@@ -61,7 +62,7 @@ int main(int argc, char* argv[])
             &backend_Gamestream.session_duration,
             backend_Gamestream.actions);
 
-        fprintf(destinationFile, "%d,%s, %s, %s, %s, %s, %s, %s, %s, %s, %d, %d, %d, %s\n",
+        fprintf(destinationFile, "%s,%s, %s, %s, %s, %s, %s, %s, %s, %s, %d, %d, %d, %s\n",
             backend_Gamestream.session, 
             backend_Gamestream.filter,
             backend_Gamestream.session_id, 
