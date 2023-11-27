@@ -1,5 +1,4 @@
 ﻿  ex24_files_sorting.c
-C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex24_files_sorting.c(17,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex24_files_sorting.c(18,26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex24_files_sorting.c(29,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex24_files_sorting.c(11,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex24_files_sorting.c(12,29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   ex24_files_sorting.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex24_files_sorting.exe

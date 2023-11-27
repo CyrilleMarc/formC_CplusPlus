@@ -80,3 +80,7 @@ set_target_properties(ex23_files_handling PROPERTIES FOLDER "exercices")
 add_executable(ex24_files_sorting ex24_files_sorting.c)
 target_link_libraries(ex24_files_sorting common_lib)
 set_target_properties(ex24_files_sorting PROPERTIES FOLDER "exercices")
+
+add_executable(ex101_array ex101_array.c)
+target_link_libraries(ex101_array common_lib)
+set_target_properties(ex101_array PROPERTIES FOLDER "exercices")
