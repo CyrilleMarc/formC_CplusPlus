@@ -229,6 +229,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{29C709BC-1ECA-375F-933C-6448F05878B4}</Project>
       <Name>ex101_array</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex102_graphics.vcxproj">
+      <Project>{15365BC9-C478-37D4-A95B-FFFE2271DA9D}</Project>
+      <Name>ex102_graphics</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex10_pointers.vcxproj">
       <Project>{D24F9142-4047-3E4B-B158-AFD89CE7C101}</Project>
       <Name>ex10_pointers</Name>

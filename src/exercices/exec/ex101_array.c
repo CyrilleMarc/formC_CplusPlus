@@ -59,7 +59,7 @@ return 0;
 
 //********************REMPLISSAGE TABLEAU AVEC DES STRING********************
 
-int main()
+/*int main()
 {
     logger_set_current_level(LOG_INFO);
     logger_log(LOG_DEBUG, __FUNCSIG__, "");
@@ -92,6 +92,47 @@ int main()
         }
        
     }
+
+    return 0;
+}*/
+
+#define MAX_LENGTH 256
+
+int main()
+{
+    logger_set_current_level(LOG_INFO);
+    logger_log(LOG_DEBUG, __FUNCSIG__, "");
+
+    char name_to_find[MAX_LENGTH] = "python est un langage";
+    char current_name[MAX_LENGTH];
+    int name_number = 0;
+
+
+    FILE* fileIn = fopen("C:/Users/cyril/Desktop/dataFiles/array.txt", "r");
+    if (NULL == fileIn)
+    {
+        logger_log(LOG_DEBUG, __FUNCSIG__, "file not found");
+        return 1;
+    }
+
+    FILE* fileOut = fopen("C:/Users/cyril/Desktop/dataFiles/result.txt", "w");
+        if (NULL == fileOut)
+        {
+            logger_log(LOG_DEBUG, __FUNCSIG__, "file not found");
+            return 1;
+        }
+  
+        while (fgets(current_name, MAX_LENGTH, fileIn) != NULL)
+        {
+            current_name[strcspn(current_name, "\n")] = 0;
+            if (strcmp(current_name, name_to_find) == 0)
+            {
+                fprintf(fileOut, "%s match with the name.\n", current_name);
+            }
+        }
+      
+        fclose(fileIn);
+        fclose(fileOut);
 
     return 0;
 }
