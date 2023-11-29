@@ -1,0 +1,4 @@
+﻿  test_game.c
+C:\Users\cyril\Desktop\archi_cmake\src\game\exec\test_game.c(20,2): warning C4013: 'loadFile' undefined; assuming extern returning int
+C:\Users\cyril\Desktop\archi_cmake\src\game\exec\test_game.c(18,6): warning C4047: 'initializing': 'int' differs in levels of indirection from 'void *'
+  test_game.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\game\exec\Debug\test_game.exe

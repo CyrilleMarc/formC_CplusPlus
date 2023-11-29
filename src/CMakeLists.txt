@@ -18,6 +18,7 @@ subdirs(lifeGame)
 subdirs(algorithmie)
 subdirs(fichier_binaire)
 subdirs(arbre_binaire)
+subdirs(game)
 
 
 
