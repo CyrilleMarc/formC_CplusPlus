@@ -72,7 +72,6 @@ add_executable(ex22_files_handling ex22_files_handling.c)
 target_link_libraries(ex22_files_handling common_lib)
 set_target_properties(ex22_files_handling PROPERTIES FOLDER "exercices")
 
-
 add_executable(ex23_files_handling ex23_files_handling.c)
 target_link_libraries(ex23_files_handling common_lib)
 set_target_properties(ex23_files_handling PROPERTIES FOLDER "exercices")
@@ -88,3 +87,12 @@ set_target_properties(ex101_array PROPERTIES FOLDER "exercices")
 add_executable(ex102_graphics ex102_graphics.c)
 target_link_libraries(ex102_graphics common_lib)
 set_target_properties(ex102_graphics PROPERTIES FOLDER "exercices")
+
+add_executable(ex103_files ex103_files.c)
+target_link_libraries(ex103_files common_lib)
+set_target_properties(ex103_files PROPERTIES FOLDER "exercices")
+
+add_executable(ex104_algo ex104_algo.c)
+target_link_libraries(ex104_algo common_lib)
+set_target_properties(ex104_algo PROPERTIES FOLDER "exercices")
+

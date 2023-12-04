@@ -233,6 +233,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{15365BC9-C478-37D4-A95B-FFFE2271DA9D}</Project>
       <Name>ex102_graphics</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex103_files.vcxproj">
+      <Project>{9142A98C-2BD0-3DE5-8A7A-387CBE4184C2}</Project>
+      <Name>ex103_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex104_algo.vcxproj">
+      <Project>{31A7492B-53FD-3F55-866A-072E6F67172C}</Project>
+      <Name>ex104_algo</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\ex10_pointers.vcxproj">
       <Project>{D24F9142-4047-3E4B-B158-AFD89CE7C101}</Project>
       <Name>ex10_pointers</Name>

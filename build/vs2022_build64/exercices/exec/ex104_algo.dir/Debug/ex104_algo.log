@@ -1,0 +1,3 @@
+﻿  ex104_algo.c
+C:\Users\cyril\Desktop\archi_cmake\src\exercices\exec\ex104_algo.c(42): warning C4715: 'fibonacci': not all control paths return a value
+  ex104_algo.vcxproj -> C:\Users\cyril\Desktop\archi_cmake\build\vs2022_build64\exercices\exec\Debug\ex104_algo.exe
